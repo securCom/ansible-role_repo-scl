@@ -1,4 +1,4 @@
-# Repo: EPEL
+# Repo: SCL
 
 Manage  Software Collections ( SCL ) Repository
 

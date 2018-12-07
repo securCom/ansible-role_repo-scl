@@ -1,0 +1,4 @@
+---
+
+scl_repo_supported: true
+scl_repo_package: centos-release-scl

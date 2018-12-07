@@ -1,0 +1,6 @@
+---
+
+- name: install scl-repository
+  package:
+    name: "{{ scl_repo_package }}"
+    state: "{{ scl_repo_package_state }}"

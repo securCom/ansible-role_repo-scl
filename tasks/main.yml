@@ -1,0 +1,16 @@
+---
+
+- name: "os specific variables"
+  include_vars: "{{ item }}"
+  with_first_found:
+    - "os-{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
+    - "os-default.yml"
+  tags:
+    - always
+
+
+- name: include packages tasks
+  import_tasks: packages.yml
+  when: scl_repo_supported
+  tags:
+    - scl

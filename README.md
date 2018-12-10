@@ -1,3 +1,7 @@
+[![Build Status](https://www.travis-ci.org/securCom/ansible-role_repo-scl.svg?branch=master)](https://www.travis-ci.org/securCom/ansible-role_repo-scl)
+[![GitHub release](https://img.shields.io/github/release/securCom/ansible-role_repo-scl.svg)](https://github.com/securCom/ansible-role_repo-scl)
+
+
 # Repo: SCL
 
 Manage  Software Collections ( SCL ) Repository
